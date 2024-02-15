@@ -62,7 +62,7 @@ def make_wordcloud(title_list, stopwords, word_count):
         path = r'c:\Windows\Fonts\malgun.ttf'
 
 
-    img_mask = np.array(Image.open('cloud.png'))
+    img_mask = np.array(Image.open('AI.png'))
     wordcloud = WordCloud(font_path=path, width=800, height=600,
                           background_color='white', max_font_size=200,
                           repeat=True,
@@ -75,12 +75,12 @@ def make_wordcloud(title_list, stopwords, word_count):
     plt.show()
 
 if __name__ == '__main__':
-    search_word = "AI"     # 검색어 지정
+    search_word = "AI의 영향"     # 검색어 지정
     title_list = []
-    stopwords = [search_word, '자동화']    # wordcloud에서 제외할 단어
+    stopwords = [search_word, '']    # wordcloud에서 제외할 단어
 
     # 1~200번게시글 까지 크롤링
-    get_titles(1, 1000, search_word, title_list)
+    get_titles(1, 500, search_word, title_list)
 
     # 단어 50개까지 wordcloud로 출력
     make_wordcloud(title_list, stopwords, 50)

@@ -1,4 +1,3 @@
-
 from nltk.corpus import wordnet as wn
 
 # 간단한 NLTK PennTreebank Tag를 기반으로 WordNet 기반의 품사 Tag로 변환
@@ -59,7 +58,7 @@ from googletrans import Translator
 import nltk
 #nltk.download('all')
 total_list =[]
-data_list = ['Artificial Intelligence','sad','happy']
+data_list = ['AI', 'Artificial Intelligence']
 def translate_list_elements(input_list, target_language='en'):
     translator = Translator()
     translation_result = []
