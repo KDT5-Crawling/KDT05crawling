@@ -1,9 +1,9 @@
 # *KDT-Public_Data_Project*
-경북대학교 KDT(Korea Digital Training) 빅데이터 전문가 양성과정 5기 : 스 3팀입니다
+경북대학교 KDT(Korea Digital Training) 빅데이터 전문가 양성과정 5기 : 스 1팀입니다
 
 
 이승민 :         
-김규량 :      
+김규량 : https://github.com/KimGyuR     
 김동현 :  
 명노아 : https://github.com/noah2397   
 
